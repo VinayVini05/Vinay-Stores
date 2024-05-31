@@ -1,0 +1,137 @@
+.head1{
+    background: linear-gradient(rgba(23, 191, 160, 0.473), rgba(183, 38, 38, 0.25));
+}
+
+.logo img{
+   width: 400px;
+   margin-left: 40%;
+   
+}
+/* .logo{
+    background-image: url("./backlogo.png");
+    background-repeat: no-repeat;
+
+} */
+
+.box1{
+   color: rgb(13, 8, 8);
+   font-size: 40px;
+   height: 100px;
+   width: 500px;
+   background-color: rgb(225, 52, 124);
+   text-align: center;
+   border-radius: 90px;
+   padding: 50px;
+   margin-left: 36%;
+   position: absolute;
+   z-index: 3;
+}
+.box2{
+    height: 200px;
+    width: 600px;
+    background-color:slategray;
+    text-align: center;
+    border-radius: 90px;
+    position: relative;
+    margin-left: 37%;
+    margin-top: 30px;
+
+}
+
+/* circle with image
+ */
+.circle{
+    margin-top: 200px;
+    float: right;
+    height: 800px;
+    width: 800px;
+    border: 1px solid blue;
+    background-color: purple;
+    border-radius: 50%;
+    /* margin-left: 900px; */
+
+}
+
+.circle img{
+    margin-top: 150px;
+    float: right;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin-right: 150px;
+    border: 50px solid white;
+
+   
+}
+.box{
+    background: linear-gradient(rgba(167, 209, 14, 0.473), rgba(155, 169, 28, 0.25));
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 200px;
+    border-radius: 50px;
+
+}
+.container{
+    display: flex;
+    /* padding: 20px; */
+    /* justify-content: space-between; */
+    margin-left: 30px;
+   
+}
+.box h2{
+    text-align: center;
+    color: blue;
+   
+}
+
+.point1 img{
+    height: 50px;
+    width: 50px;  
+    padding-right: 40px;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 50%; 
+}
+
+/* 4th */
+.banner {
+    height:auto;
+    width: 80%;
+    border: 2px solid blue;
+    border-radius: 30px;
+    font-size: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+
+/* Footer */
+
+.ftr{
+    border: 2px solid purple;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+.address{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.contact{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.website{
+    float: right;
+    font-size: 40px;
+   margin-right: 100px;
+}
